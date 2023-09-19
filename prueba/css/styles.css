@@ -19,6 +19,13 @@
     justify-content: space-between;
 }
 
+.opciones-movil{
+    display:none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .icono{
     height: 30px;
@@ -31,12 +38,18 @@
 
 
 @media (max-width:  1249px){
-    .barras{
+    .barras,
+    .opciones-movil{
         display: block;
     }
 
     .redes-sociales,
     .opciones{
         display:none;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
     }
 }
