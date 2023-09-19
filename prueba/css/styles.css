@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.opciones{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icono{
+    height: 30px;
+    width: 30px;
+}
+
+.barras{
+    display: none;
+}
+
+
+@media (max-width:  1249px){
+    .barras{
+        display: block;
+    }
+
+    .redes-sociales,
+    .opciones{
+        display:none;
+    }
+}
